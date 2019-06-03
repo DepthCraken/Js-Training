@@ -35,7 +35,7 @@ const UnitList = [
    *
    */
 
-	var Array[0];
+    var Array[0];
     var Array1[0];
     var Array2[0];
 
@@ -46,9 +46,6 @@ const UnitList = [
     for (var i = 0; i < UnitList[0]; i++) {
         console.log(UnitList[i]);
     }
-    
-    
-    
    }
    
    
