@@ -35,44 +35,29 @@ const UnitList = [
    *
    */
 
-    var Array[0];
-    var Array1[0];
-    var Array2[0];
+
+var a = [];
+var b = [];
+var c = [];
+
+var special = [];
 
 
+for(let i = 0; UnitList.length; i++){
+  a[i] = UnitList[i].make
+  b[i] = UnitList[i].type
+  c[i] = UnitList[i].year
+
+  if( year[i] >= 2039 ){
+    special = "Future tech"
+  }else{
+    special = "Contemporary"
+  }
+}
+
+var nodes.push(a,b,c,special);
 
 
-   function myList(UnitList){
-    for (var i = 0; i < UnitList[0]; i++) {
-        console.log(UnitList[i]);
-    }
-   }
-   
-   
-   /*
-   function myList(UnitList){
-     for (i = 0; i < UnitList.length; i++){
-          document.write( UnitList.toString());
-     }
-   } 
-   
-   
-   var specialValue = 'Future tech';
-   
-   
-   var Array01 = [];
-   
-   fuction myList(){
-   
-   	Array01.pushValues(UnitList){
-    	if(UnitList[i] === "year" ){
-        	unitList[i] = specialValue
-        }
-    }  
-   
-   }
-   
-   */
 </script>
 
 </body>
